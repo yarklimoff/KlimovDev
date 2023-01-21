@@ -16,3 +16,11 @@
 	gap: 30px;
 	align-items: center;
 }
+
+@media (max-width: 620px) {
+	.social {
+	display: flex;
+	gap: 30px;
+	align-items: center;
+	}
+}
