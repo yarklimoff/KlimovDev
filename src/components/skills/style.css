@@ -28,18 +28,10 @@
 }
 
 @media (max-width: 620px) {
-	/* Header  */
-
-	.header {
-		min-height: unset;
-		flex-direction: column-reverse;
-	}
-
 	.skills-container {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	column-gap: 10px;
 	row-gap: 10px;
 	}
-
 }
