@@ -85,15 +85,37 @@ body {
 
 
 @media (max-width: 620px) {
-	.title-1 {
-		margin-bottom: 30px;
+	/* Header  */
+
+	.header {
+		min-height: unset;
+		flex-direction: column-reverse;
+	}
+
+	.skills-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 10px;
+	row-gap: 10px;
+}
+
+	.header__title {
+		font-size: 30px;
+	}
+
+	.header__title strong {
 		font-size: 40px;
 	}
 
-	.title-2 {
-		margin-bottom: 10px;
-		font-size: 30px;
+
+	/* General */
+
+	.section {
+		padding: 40px 0;
 	}
+
+
+
 
 
 	/* Content List */
