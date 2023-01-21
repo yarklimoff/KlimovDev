@@ -9,7 +9,7 @@ export default function Header() {
                     <strong>Hi, my name is <em>Yaroslav</em></strong><br></br>
                     a frontend developer
                 </h1>
-                <a href="https://drive.google.com/file/d/1p2w32YYlGv9V40KN7PAjT4_uGeFMuPLb/view?usp=sharing" className="btn">Download CV</a>
+                <a href="https://drive.google.com/file/d/1MWsbNd5uepQwOgtNNjd_5z7YXbtkZ7FA/view?usp=share_link" className="btn">Download CV</a>
         </div>
         <img className='avatar' src={avatar} alt='avatar'></img>
     </header>
